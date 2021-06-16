@@ -1,0 +1,834 @@
+<!DOCTYPE HTML>
+<html lang="fa" id="toUp">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>صفحه اصلی</title>
+    <link rel="shortcut icon" href="img/radio-checked.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/Theme.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- <script src="js/popper.min.js"></script> -->
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- Start wrapper section -->
+    <div id="wrapper">
+        <!-- HEADER -->
+            <!-- FirstNav with bg-dark that is hide in lg & xlg modes -->
+            <nav class="top-nav">
+                <a href="#" onclick="openMenu()" id="drop" class="dropdown-toggle" data-toggle="dropdown">منو
+                    <span class="caret"></span>
+                </a>
+                <div style="display: inline-block">
+                    <ul class="dropdown-menu">
+                        <li><a href="#">حساب من</a></li>
+                        <li><a href="#">معامله روزانه</a></li>
+                        <li><a href="#">بلاگ</a></li>
+                        <li><a href="#">ورود</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- SecoundNav with bg-white that is fixed-top -->
+            <nav class="nav">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-7">
+                            <!--account-->
+                            <div class="cart">
+                                <div class="cart-area">
+                                    <ul style="padding-left: 0">
+                                        <div class="link-header">
+                                            <li>
+                                                <!--open sideNav bg-dark button-->
+                                                <a href="#" class="dropbtn" data-toggle="dropdown" onclick="openNav()">
+                                                    <img src="img/icon-home-bar.png">
+                                                </a>
+                                                <!--toggle link-->
+                                                <div class="dropdown-content" id="content">
+                                                    <a href="#">حساب من</a>
+                                                    <a href="#">معامله روزانه</a>
+                                                    <a href="#">بلاگ</a>
+                                                    <a href="#">ورود</a>
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <!--display:none-->
+                                        <div class="mediaSearchIcon">
+                                            <a id="search"><img src="img/icons8-search-500.png"></a>
+                                            <div class="dropsearch">
+                                                <button>
+                                                    <img src="img/icons8-search-500.png">
+                                                </button>
+                                                <input type="search" placeholder="جستجو">
+                                            </div>
+                                        </div>
+                                        <div class="shop-icon" id="shop">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="img/Shopicon.png">
+                                                    <span class="badge"><sup>0</sup></span>
+                                                </a>
+                                            </li>
+                                        </div>
+                                        <div class="links">
+                                            <li><a href="#signin">ورود</a></li>
+                                            <li><a href="#cart">کارت</a></li>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 d-none d-lg-block d-xl-block">
+                            <!--search-->
+                            <div class="search-area">
+                                <form method="get">
+                                    <div class="form-search">
+                                        <button type="submit">
+                                            <img src="img/icons8-search-500.png">
+                                        </button>
+                                        <input type="search" class="input-txt" placeholder="جستجو">
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6 col-5">
+                            <!--logo-->
+                            <div class="logo">
+                                <div class="logo-box">
+                                    <a href="#"><img src="img/photo_2019-02-03_11-42-27.jpg"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        <!-- MAIN -->
+        <div class="container">
+            <div class="row">
+                
+                <div class="col-lg-9">
+                    <!-- Slider section -->
+                    <div id="carouselSlides" class="carousel slide" data-ride="carousel">
+                        <!-- Slider contents -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/img-slider-1.png" class="d-block w-100" alt="First Slide">
+                                <div class="carousel-caption">
+                                    <p>سبک مدرن</p>
+                                    <a href="#">همین حالا بخرید</a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/img-slider-2.png" class="d-block w-100" alt="Secound Slide">
+                                <div class="carousel-caption">
+                                    <p>سبک مدرن</p>
+                                    <a href="#">همین حالا بخرید</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Slider controls -->
+                        <a class="prev" href="#carouselSlides" role="button" data-slide="prev">&#10094;</a>
+                        <a class="next" href="#carouselSlides" role="button" data-slide="next">&#10095;</a>
+                    </div>
+                    <!-- Products section -->
+                    <div class="owl-one owl-carousel owl-theme">
+                        محصولات ویژه
+                        <div class="item">
+                            <div class="card">
+                                <a href="teapot.html">
+                                    <img class="card-img-top" src="img/teapot.jpg" alt="teaPot">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <p><a href="teapot.html">قوری چای</a></p>
+                                    </div>
+                                    <div class="card-text">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <p>100.000 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="basket.html">
+                                    <img class="card-img-top" src="img/basket.jpg" alt="basket">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <p><a href="basket.html">سبد</a></p>
+                                    </div>
+                                    <div class="card-text">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <p>30.000 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="warm.html">
+                                    <img class="card-img-top" src="img/warm porcelain.jpg" alt="warmPorceLine">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <p><a href="warm.html">ظرف</a></p>
+                                    </div>
+                                    <div class="card-text">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <p>30.000 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="cottonchair.html">
+                                    <img class="card-img-top" src="img/cotton chair.jpg" alt="cottonChair">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <p><a href="cottonchair.html">صندلی</a></p>
+                                    </div>
+                                    <div class="card-text">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <p>100.000 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="chandeliersSleep.html">
+                                    <img class="card-img-top" src="img/chandeliers sleep.jpg" alt="chandeliersSleep">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <p><a href="chandeliersSleep.html">چراغ خواب</a></p>
+                                    </div>
+                                    <div class="card-text">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <p>300.000 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="handLock.html">
+                                    <img class="card-img-top" src="img/hand lock.jpg" alt="handLock">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <p><a href="handLock.html">دستگیره</a></p>
+                                    </div>
+                                    <div class="card-text">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <p>230.000 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="chopsticksPipe.html">
+                                    <img class="card-img-top" src="img/chopsticks pipe.jpg" alt="chopsticksPipe">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <p><a href="chopsticksPipe.html">پایه چوبی</a></p>
+                                    </div>
+                                    <div class="card-text">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <p>100.000 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="lantern.html">
+                                    <img class="card-img-top" src="img/lantern.jpg" alt="lantern">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <p><a href="lantern.html">فانوس</a></p>
+                                    </div>
+                                    <div class="card-text">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <p>200.000 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="cup.html">
+                                    <img class="card-img-top" src="img/cup.jpg" alt="cup">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <p><a href="cup.html">فنجان</a></p>
+                                    </div>
+                                    <div class="card-text">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <p>300.000 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="flowerPot.html">
+                                    <img class="card-img-top" src="img/flower pot.jpg" alt="flowerPot">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <p><a href="flowerPot.html">گلدان</a></p>
+                                    </div>
+                                    <div class="card-text">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <p>100.000 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="woodBed.html">
+                                    <img class="card-img-top" src="img/wood bed.jpg" alt="woodBed">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <p><a href="woodBed.html">تخت خواب چوبی</a></p>
+                                    </div>
+                                    <div class="card-text">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <p>250.000 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="card">
+                                <a href="chairWood.html">
+                                    <img class="card-img-top" src="img/chair wood.jpg" alt="chairWood">
+                                </a>
+                                <div class="card-body">
+                                    <div class="card-title">
+                                        <p><a href="chairWood.html">صندلی چوبی</a></p>
+                                    </div>
+                                    <div class="card-text">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <img src="img/star-empty.png" alt="starEmpty">
+                                        <p>120.000 تومان</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="totalBanner">
+                        <div class="row">
+                            <div class="col-md-8">
+                                <div class="bannerImgBox">
+                                    <a href="#">
+                                        <img src="img/bannerImage.png" alt="bannerImg">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="outer-bannerTextBox">
+                                    <div class="bannerTextBox">
+                                        <h3>خانه و باغچه</h3>
+                                        <p>شروع قیمت از</p>
+                                        <span class="N1">ت352.000</span>
+                                        <span class="N2"><del>ت452.000</del></span>
+                                        <a href="#">همین حالا بخرید</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4 col-sm-12">
+                            <div class="owl-two owl-carousel owl-theme">
+                                پرطرفدار
+                                <div class="item">
+                                    <a href="#"><img src="img/img-slider-banner-1.png" alt="img-slider-banner-1"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#"><img src="img/img-slider-banner-1.png" alt="img-slider-banner-1"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#"><img src="img/img-slider-banner-1.png" alt="img-slider-banner-1"></a>
+                                </div>
+                                <div class="item">
+                                    <a href="#"><img src="img/img-slider-banner-1.png" alt="img-slider-banner-1"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-sm-6">
+                            <div id="card-one">
+                                <h5>فروش</h5>
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="col-xl-5 col-lg-6 col-md-4 col-sm-5 col-3 plnone">
+                                            <a href="#"><img class="w-100" id="card-one-img" src="img/flower pot.jpg"
+                                                    alt="flower pot"></a>
+                                        </div>
+                                        <div class="col-xl-7 col-lg-12 col-md-8 col-sm-7 col-9">
+                                            <div class="card-title mb-0 mt-2">
+                                                <div class="card-text-s1">
+                                                    <img src="img/star-empty.png" alt="star empty">
+                                                    <img src="img/star-empty.png" alt="star empty">
+                                                    <img src="img/star-empty.png" alt="star empty"> <img src="img/star-empty.png"
+                                                        alt="star empty">
+                                                    <img src="img/star-empty.png" alt="star empty">
+                                                </div>
+                                                <a href="#">
+                                                    <h6 class="mb-0">گلدان</h6>
+                                                </a>
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-text-s2">100.000ت</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="row mt-3">
+                                        <div class="col-xl-5 col-lg-6 col-md-4 col-sm-5 col-3 plnone">
+                                            <a href="#"><img class="w-100" id="card-one-img" src="img/capmen.jpg" alt="capmen"></a>
+                                        </div>
+                                        <div class="col-xl-7 col-lg-12 col-md-8 col-sm-7 col-9">
+                                            <div class="card-title mb-0 mt-2">
+                                                <div class="card-text-s1">
+                                                    <img src="img/star-empty.png" alt="star empty">
+                                                    <img src="img/star-empty.png" alt="star empty">
+                                                    <img src="img/star-empty.png" alt="star empty"> <img src="img/star-empty.png"
+                                                        alt="star empty">
+                                                    <img src="img/star-empty.png" alt="star empty">
+                                                </div>
+                                                <a href="#">
+                                                    <h6 class="mb-0">کلاه مردانه</h6>
+                                                </a>
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-text-s2">125.000ت</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-sm-6">
+                            <div id="card-one">
+                                <h5>بهترین ها</h5>
+                                <div class="card">
+                                    <div class="row">
+                                        <div class="col-xl-5 col-lg-6 col-md-4 col-sm-5 col-3 plnone">
+                                            <a href="#"><img class="w-100" id="card-one-img" src="img/camera.jpg" alt="camera"></a>
+                                        </div>
+                                        <div class="col-xl-7 col-lg-12 col-md-8 col-sm-7 col-9">
+                                            <div class="card-title mb-0 mt-2">
+                                                <div class="card-text-s1">
+                                                    <img src="img/star-empty.png" alt="star empty">
+                                                    <img src="img/star-empty.png" alt="star empty">
+                                                    <img src="img/star-empty.png" alt="star empty"> <img src="img/star-empty.png"
+                                                        alt="star empty">
+                                                    <img src="img/star-empty.png" alt="star empty">
+                                                </div>
+                                                <a href="#">
+                                                    <h6 class="mb-0">دوربین</h6>
+                                                </a>
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-text-s2">100.000ت</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="row mt-3">
+                                        <div class="col-xl-5 col-lg-6 col-md-4 col-sm-5 col-3 plnone">
+                                            <a href="#"><img class="w-100" id="card-one-img" src="img/backpack.jpg" alt="backpack"></a>
+                                        </div>
+                                        <div class="col-xl-7 col-lg-12 col-md-8 col-sm-7 col-9">
+                                            <div class="card-title mb-0 mt-2">
+                                                <div class="card-text-s1">
+                                                    <img src="img/star-empty.png" alt="star empty">
+                                                    <img src="img/star-empty.png" alt="star empty">
+                                                    <img src="img/star-empty.png" alt="star empty"> <img src="img/star-empty.png"
+                                                        alt="star empty">
+                                                    <img src="img/star-empty.png" alt="star empty">
+                                                </div>
+                                                <a href="#">
+                                                    <h6 class="mb-0">کوله پشتی</h6>
+                                                </a>
+                                            </div>
+                                            <div class="card-text">
+                                                <div class="card-text-s2">100.000ت</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- SIDEBAR -->
+                <div class="col-lg-3 col-xs-12">
+                    <div class="side">
+                        <!--category-->
+                        <div class="categories">
+                            <h5>دسته بندی</h5>
+                            <ul>
+                                <li>
+                                    <a><span id="plus"><img src="img/plus.png" alt="plusicon"></span></a>
+                                    <a><span id="minus"><img src="img/minus.png" alt="minusicon"></span></a>
+                                    <a href="product.html">مد</a>
+                                    <ul class="toggle">
+                                        <li><a href="#">لباس های زنانه<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">لباس های مردانه<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">کفش ها<img class="this" src="img/play.png"></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><span id="plus1"><img src="img/plus.png" alt="plusicon"></span></a>
+                                    <a><span id="minus1"><img src="img/minus.png" alt="minusicon"></span></a>
+                                    <a href="product.html">الکترونیک</a>
+                                    <ul class="toggle1">
+                                        <li><a href="#">کامپیوتر<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">تلفن های همراه<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">تبلت ها<img class="this" src="img/play.png"></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><span id="plus2"><img src="img/plus.png" alt="plusicon"></span></a>
+                                    <a><span id="minus2"><img src="img/minus.png" alt="minusicon"></span></a>
+                                    <a href="product.html">خانه و باغچه</a>
+                                    <ul class="toggle2">
+                                        <li><a href="#">تختخواب<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">مبلمان<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">لوازم دکوری<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">لوازم نهارخوری و آشپزخانه<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">روشنایی بیرونی<img class="this" src="img/play.png"></a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a><span id="plus3"><img src="img/plus.png" alt="plusicon"></span></a>
+                                    <a><span id="minus3"><img src="img/minus.png" alt="minusicon"></span></a>
+                                    <a href="product.html">ادوات موسیقی</a>
+                                    <ul class="toggle3">
+                                        <li><a href="#">لوازم<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">لوازم<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">لوازم<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">لوازم<img class="this" src="img/play.png"></a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="product.html">تجهیزات ورزشی</a></li>
+                                <li><a href="product.html">محصولات موتوری</a></li>
+                                <li>
+                                    <a><span id="plus4"><img src="img/plus.png" alt="plusicon"></span></a>
+                                    <a><span id="minus4"><img src="img/minus.png" alt="minusicon"></span></a>
+                                    <a href="#">صفحات</a>
+                                    <ul class="toggle4">
+                                        <li><a href="#">درباره<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">سهم 4 ستون<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">سهم 3 ستون<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">سهم 2 ستون<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">سهم پست<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">بلاگ<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">پست بلاگ<img class="this" src="img/play.png"></a></li>
+                                        <li><a href="#">تماس<img class="this" src="img/play.png"></a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">خرید تم</a></li>
+                                <li><a href="products.html">محصولات</a></li>
+                            </ul>
+                        </div>
+                        <!-- Off -->
+                        <div class="offbox">
+                            <div class="content">
+                                <a href="#">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <h5>کفش<br> قهوه ای زنانه</h5>
+                                            <a href="#">همین حالا بخرید</a>
+                                        </div>
+                                    </div>
+                                    <img src="img/shoe.png" alt="shoeOff">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Newsletter sidenav -->
+                        <div class="subscribe">
+                            <div class="block-title">
+                                <h5>خبرنامه</h5>
+                            </div>
+                            <div class="block-text">
+                                <p>برای عضویت در خبرنامه، آدرس ایمیل خود را وارد کنید</p>
+                            </div>
+                            <div class="block-form">
+                                <div class="input-block-form">
+                                    <i>
+                                        <img src="img/icon-newsletter.png" alt="">
+                                    </i>
+                                    <input type="email" placeholder="آدرس ایمیل">
+                                    <button>عضویت</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Sidebar carousel -->
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-12 px-0">
+                                    <div class="owl-three owl-carousel owl-theme">
+                                        <div class="item">
+                                            <img src="img/John.jpg" alt="john">
+                                            <p class="mb-0">جان اسمیت</p>
+                                            <p class="p2 pt-0">CEO & Founder Okler</p>
+                                            <p class="mx-30">Adipisci esse nobis alias magnam dolores debitis non odit porro nost.</p>
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/John.jpg" alt="john">
+                                            <p class="mb-0">جان اسمیت</p>
+                                            <p class="p2 pt-0">CEO & Founder Okler</p>
+                                            <p class="mx-30">Adipisci esse nobis alias magnam dolores debitis non odit
+                                                porro nost.</p>
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/John.jpg" alt="john">
+                                            <p class="mb-0">جان اسمیت</p>
+                                            <p class="p2 pt-0">CEO & Founder Okler</p>
+                                            <p class="mx-30">Adipisci esse nobis alias magnam dolores debitis non odit
+                                                porro nost.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <footer>
+            <div class="footer-top">
+                <div class="footerTopRow">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12">
+                            <div class="footerTopDivs" id="firstSection">
+                                <h6>24/7 پشتیبانی آنلاین</h6>
+                                <p>بالاترین رضایت مشتری</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12" id="secoundSection">
+                            <div class="footerTopDivs" id="secoundSectionDiv">
+                                <h6>تضمین بازگشت پول</h6>
+                                <p>تضمین 100% بازگشت پول</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12" id="thirdSection">
+                            <div class="footerTopDivs">
+                                <h6>حمل و نقل و تحویل رایگان</h6>
+                                <p>تحویل رایگان در سفارشات بیش از 99.000 تومان</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footers">
+                <div class="footer-middle">
+                    <div class="container">
+                        <div class="row">
+                            <!--connect-->
+                            <div class="col-md-3 col-12 connectUS">
+                                <h6>اطلاعات ارتباط</h6>
+                                <li>123 shopo studio</li>
+                                <li>Ankeny, IA128566</li>
+                                <li>+123 456 7890</li>
+                                <li>info@oline.com</li>
+                            </div>
+                            <!--collection-->
+                            <div class="col-md-3 col-12">
+                                <h6>مجموعه</h6>
+                                <li><a href="#">مد</a></li>
+                                <li><a href="#">الکترونیک</a></li>
+                                <li><a href="#">خانه و باغچه</a></li>
+                                <li><a href="#">موسیقی</a></li>
+                                <li><a href="#">ورزش</a></li>
+                                <li><a href="products.html">محصولات</a></li>
+                            </div>
+                            <!--account-->
+                            <div class="col-md-3 col-12">
+                                <h6>حساب من</h6>
+                                <li><a href="#">ارتباط با ما</a></li>
+                                <li><a href="#">درباره ما</a> </li>
+                                <li><a href="#">لیست علاقه مندی ها</a> </li>
+                                <li><a href="#">وارسی</a> </li>
+                            </div>
+                            <!--newsletter-->
+                            <div class="col-md-3 col-12 mb-10">
+                                <h6>خبرنامه</h6>
+                                <p class="mb-0">ثبت نام در خبرنامه ما</p>
+                                <div class="row">
+                                    <div class="col-sm-12" id="form">
+                                        <button type="submit">برو</button>
+                                        <input type="email" placeholder="..ایمیل شما">
+                                    </div>
+                                    <div class="col-sm-12">
+                                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                                        <a href="#"><i class="fa fa-twitter"></i></a>
+                                        <a href="#"><i class="fa fa-facebook"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <!--link to top-->
+                <a href="#toUp">
+                    <i class="fa fa-angle-up" id="up"></i>
+                </a>
+                <!--copyright-->
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 col-12 imageBox">
+                                <img src="img/img-payment.png" alt="payment">
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <p>Online © 2017. All Rights Reserved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- The end of the wrapper section -->
+
+    <!-- SideNav (out of wraper) that show in max-width 992px and click on menuBar -->
+    <div id="mySideNav" class="sideNav">
+        <div class="category">
+            <a href="#"><span id="plus-toggle"><img src="img/plusw.png" alt="plusicon"></span></a>
+            <a href="#"><span id="minus-toggle"><img src="img/minusw.png" alt="minusicon"></span></a>
+            <a href="#">مد</a>
+            <ul class="sidenav-toggle">
+                <li><a href="#">لباس های زنانه<span>&#10094;</span></a></li>
+                <li><a href="#">لباس های مردانه<span>&#10094;</span></a></li>
+                <li><a href="#">کفش ها<span>&#10094;</span></a></li>
+            </ul>
+            <a href="#"><span id="plus-toggle1"><img src="img/plusw.png" alt="plusicon"></span></a>
+            <a href="#"><span id="minus-toggle1"><img src="img/minusw.png" alt="minusicon"></span></a>
+            <a href="#">الکترونیک</a>
+            <ul class="sidenav-toggle1">
+                <li><a href="#">کامپیوتر<span>&#10094;</span></a></li>
+                <li><a href="#">تلفن های همراه<span>&#10094;</span></a></li>
+                <li><a href="#">تبلت ها<span>&#10094;</span></a></li>
+            </ul>
+            <a href="#"><span id="plus-toggle2"><img src="img/plusw.png" alt="plusicon"></span></a>
+            <a href="#"><span id="minus-toggle2"><img src="img/minusw.png" alt="minusicon"></span></a>
+            <a href="#">خانه و باغچه</a>
+            <ul class="sidenav-toggle2">
+                <li><a href="#">تختخواب<span>&#10094;</span></a></li>
+                <li><a href="#">مبلمان<span>&#10094;</span></a></li>
+                <li><a href="#">لوازم دکوری<span>&#10094;</span></a></li>
+                <li><a href="#" class="st2link">لوازم نهارخوری و آشپزخانه<span>&#10094;</span></a></li>
+                <li><a href="#">روشنایی بیرونی<span>&#10094;</span></a></li>
+            </ul>
+            <a href="#"><span id="plus-toggle3"><img src="img/plusw.png" alt="plusicon"></span></a>
+            <a href="#"><span id="minus-toggle3"><img src="img/minusw.png" alt="minusicon"></span></a>
+            <a href="#">ادوات موسیقی</a>
+            <ul class="sidenav-toggle3">
+                <li><a href="#">لوازم<span>&#10094;</span></a></li>
+                <li><a href="#">لوازم<span>&#10094;</span></a></li>
+                <li><a href="#">لوازم<span>&#10094;</span></a></li>
+                <li><a href="#">لوازم<span>&#10094;</span></a></li>
+            </ul>
+            <a href="#">تجهیزات ورزشی</a>
+            <a href="#"><span id="plus-toggle4"><img src="img/plusw.png" alt="plusicon"></span></a>
+            <a href="#"><span id="minus-toggle4"><img src="img/minusw.png" alt="minusicon"></span></a>
+            <a href="#">محصولات موتوری</a>
+            <ul class="sidenav-toggle4">
+                <li><a href="#">درباره<span>&#10094;</span></a></li>
+                <li><a href="#">سهم 4 ستون<span>&#10094;</span></a></li>
+                <li><a href="#">سهم 3 ستون<span>&#10094;</span></a></li>
+                <li><a href="#">سهم 2 ستون<span>&#10094;</span></a></li>
+                <li><a href="#">سهم پست<span>&#10094;</span></a></li>
+                <li><a href="#">بلاگ<span>&#10094;</span></a></li>
+                <li><a href="#">پست بلاگ<span>&#10094;</span></a></li>
+            </ul>
+            <a href="#">تماس</a>
+            <a href="#">خرید تم</a>
+            <a href="products.html">محصولات</a>
+        </div>
+    </div>
+    
+    <script src="js/DropsSaerchInput.js" type="text/javascript"></script>
+    <script src="js/sidenav-state.js" type="text/javascript"></script>
+    <script src="js/nav-animate.js" type="text/javascript"></script>
+    <script src="js/sidenav-toggle-links.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/owl.carousel.js" type="text/javascript"></script>
+    <script src="js/imageGallery.js" type="text/javascript"></script>
+</body>
+
+</html>
